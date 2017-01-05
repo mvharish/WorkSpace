@@ -1,0 +1,39 @@
+/**
+ * 
+ */
+package com.java.designpatterns.factorypattern;
+
+/**
+ * @author mvhar
+ *
+ */
+public class PC extends Computer {
+
+	/* (non-Javadoc)
+	 * @see com.java.designpatterns.factorypattern.Computer#getRAM()
+	 */
+	@Override
+	public String getRAM() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see com.java.designpatterns.factorypattern.Computer#getHDD()
+	 */
+	@Override
+	public String getHDD() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see com.java.designpatterns.factorypattern.Computer#getCPU()
+	 */
+	@Override
+	public String getCPU() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

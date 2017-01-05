@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.java.designpatterns.singlepattern;
+
+/**
+ * @author mvhar
+ *
+ */
+public class EagerInitializedSingleton {
+
+}

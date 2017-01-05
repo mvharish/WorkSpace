@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.java.designpatterns.factorypattern;
+
+/**
+ * @author mvhar
+ *
+ */
+public class ComputerFactory {
+
+}
