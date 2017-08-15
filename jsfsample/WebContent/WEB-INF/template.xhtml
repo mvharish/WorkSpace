@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+    <h:head>
+        <f:facet name="first">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+        </f:facet>
+        <title>PrimeFaces Icarus</title>
+        <h:outputScript name="js/nanoscroller.js" library="icarus-layout" />
+        <h:outputScript name="js/layout.js" library="icarus-layout" />
+
+        <ui:insert name="head"/>
+    </h:head>
+
+    <h:body styleClass="BlueTopbar">
+        <div id="layout-topbar-cover">
+            
+            <div id="layout-topbar-row">
+            
+                <div id="layout-topbar-left">
+            </div>
+        <div id="layout-topbar-right">
+
+                <a id="menu-resize-btn" class="topbar-link Animated03"><img id="menu-resize-btn" src="resources\icarus-layout\images\menu-resize-btn-icon.svg" /></a>
+                <a id="mobile-menu-btn" class="topbar-link Animated03"><img id="menu-btn-icon" src="resources\icarus-layout\images\menu-btn-icon.svg" /></a>
+
+                <a id="" class="topbar-link Animated03 Fright"><i class="icon-user7"></i></a>
+                <a id="" class="topbar-link Animated03 Fright"><i class="icon-finish3"></i></a>
+
+                <div id="search-bar">
+                    <input type="text" placeholder="Search" />
+                    <a id="search-btn" class="Animated03"><i class="icon-zoom64"></i></a>
+                </div>
+
+            </div>
+    
+             </div> 
+             </div>              
+                <div id="layout-container">
+                    <div id="layout-container-row">
+                    <div id="layout-menu-cover" class="nano Animated03">
+                    <div id="layout-menu-cover-scroll-content" class="nano-content">
+                    <ul id="layout-tab-menu">
+        <li><a href="#" class="active" rel="layout-menu"> <i class="icon-speedometer33"></i> <span class="layout-tab-menu-link-text"><span></span> Olympos Main Menu</span> </a></li>
+        <li><a href="#" rel="layout-messages"> <i class="icon-chat66"></i> <span class="layout-tab-menu-link-text"><span></span> Messages</span> </a></li>
+        <li><a href="#" rel="layout-settings"> <i class="icon-settings47"></i> <span class="layout-tab-menu-link-text"><span></span> Settings</span> </a></li>
+        <li><a href="#" rel="layout-tasks"> <i class="icon-travel17"></i> <span class="layout-tab-menu-link-text"><span></span> Tasks</span> </a></li>
+        <li><a href="#" rel="layout-users"> <i class="icon-male238"></i> <span class="layout-tab-menu-link-text"><span></span> Active Users</span> </a></li>
+        <li><a href="#" rel="layout-files"> <i class="icon-arrow66"></i> <span class="layout-tab-menu-link-text"><span></span> Cloud Files</span> </a></li>
+        <li><a href="#" rel="layout-todos"> <i class="icon-clipboard88"></i> <span class="layout-tab-menu-link-text"><span></span> My TODOs</span> </a></li>
+        <li><a href="#" rel="layout-events"> <i class="icon-event9"></i> <span class="layout-tab-menu-link-text"><span></span> My Events</span> </a></li>
+        <li><a href="#" rel="layout-addressbook"> <i class="icon-emails5"></i> <span class="layout-tab-menu-link-text"><span></span> My Address Book</span> </a></li>
+    </ul>
+                        <ui:include src="layoutmenu.xhtml" />
+                    </div>
+                </div>
+            </div>   </div>
+            
+            
+        
+        <p:ajaxStatus style="width:32px;height:32px;position:fixed;right:7px;bottom:7px">
+            <f:facet name="start">
+                <p:graphicImage name="images/preloader.gif" library="icarus-layout" style="width: 32px;"/>
+            </f:facet>
+
+            <f:facet name="complete">
+                <h:outputText value="" />
+            </f:facet>
+        </p:ajaxStatus>
+        
+        <h:outputStylesheet name="css/core-layout.css" library="icarus-layout" />
+        <h:outputStylesheet name="css/animate.css" library="icarus-layout" />
+        <h:outputStylesheet name="css/nanoscroller.css" library="icarus-layout" />
+        <h:outputStylesheet name="css/layout-blue.css" library="icarus-layout" />
+    </h:body>
+
+</html>

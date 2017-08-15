@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1484462187412_1" label="web" name="web"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1481469347301_0" label="Window Working Set" name="Aggregate for window 1481469347301"/>
+<mruList name="web"/>
 </workingSetManager>
